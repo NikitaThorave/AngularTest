@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>User Settings!</h2>
+    <form #settingform="ngForm" (ngSubmit) = "onSubmit(settingform)">
+        <div class="m-3 form-group" style="margin:10px ;">
+            <label for="name">Name</label><br><br>
+            <input id="name" ngmodel required name="Name2" type="text" class="form-control"><br><br>
+            <button type="submit" class="btn btn-primary">Submit Form</button>
+        </div>
+    </form>
+</div>
